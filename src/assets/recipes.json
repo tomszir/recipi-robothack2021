@@ -1,0 +1,892 @@
+{
+  "recipes": [
+    {
+      "name": "Pancakes",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1598214886806-c87b84b7078b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
+      "time": "20min",
+      "servings": "6",
+      "steps": [
+        {
+          "description": "In a large bowl, mix together the {0}, eggs, salt, {3}, and {4} until well incorporated"
+        },
+        {
+          "description": "Slowly mix in the {5} as to not create any lumps"
+        },
+        {
+          "description": "Heat a lightly oiled pan over a medium heat. When the pan has heated up, fill the pan with spaced out scoops of pancake batter. Place the lid on the pan and wait 2 minutes until the first side has browned, then flip each pancake and let brown for another 2 minutes or so."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "All-purpose flour",
+          "amount": {
+            "value": "180",
+            "unit": "g"
+          },
+          "alternatives": ["Whole-wheat flour", "Flour mixed with ground oats"]
+        },
+        {
+          "name": "Egg",
+          "amount": {
+            "value": "1"
+          }
+        },
+        {
+          "name": "Salt",
+          "amount": {
+            "value": "1/2",
+            "unit": "teaspoon"
+          }
+        },
+        {
+          "name": "White sugar",
+          "amount": {
+            "value": "1",
+            "unit": "tablespoon"
+          },
+          "alternatives": ["Brown sugar"]
+        },
+        {
+          "name": "Baking powder",
+          "amount": {
+            "value": "1",
+            "unit": "teaspoon"
+          },
+          "alternatives": ["Baking soda"]
+        },
+        {
+          "name": "Milk",
+          "amount": {
+            "value": "300",
+            "unit": "ml"
+          },
+          "alternatives": ["Water", "Kefir"]
+        }
+      ],
+      "tags": ["simple", "Fast"]
+    },
+    {
+      "name": "Banana Bread",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1596241913027-34358037e159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
+      "time": "1h 20min",
+      "servings": "12",
+      "steps": [
+        {
+          "description": "In a large bowl, mix together the {0}, {1} and {2}."
+        },
+        {
+          "description": "In a separate bowl cream together the butter and {4}. Stir in the Eggs and mashed bananas."
+        },
+        {
+          "description": "Mix banana mixture with dry ingredients until combined and pur into a lightly greased loaf pan."
+        },
+        {
+          "description": "Heat the oven to 175C and bake for 60-65 minutes until a toothpick inserted into the thickest part comes out clean. Cool for at least 10 minutes and then remove from loaf pan."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "All-purpose flour",
+          "amount": {
+            "value": "280",
+            "unit": "g"
+          },
+          "alternatives": ["Bread flour"]
+        },
+        {
+          "name": "Baking soda",
+          "amount": {
+            "value": "1",
+            "unit": "teaspoon"
+          },
+          "alternatives": ["Baking powder"]
+        },
+        {
+          "name": "Salt",
+          "amount": {
+            "value": "1/2",
+            "unit": "teaspoon"
+          }
+        },
+        {
+          "name": "Butter",
+          "amount": {
+            "value": "115",
+            "unit": "g"
+          }
+        },
+        {
+          "name": "Brown sugar",
+          "amount": {
+            "value": "150",
+            "unit": "g"
+          },
+          "alternatives": ["White sugar"]
+        },
+        {
+          "name": "Egg",
+          "amount": {
+            "value": "2",
+            "comment": "beaten"
+          }
+        },
+        {
+          "name": "Bananas",
+          "amount": {
+            "value": "700",
+            "unit": "g"
+          },
+          "comment": "mashed"
+        }
+      ],
+      "tags": ["Suggested"]
+    },
+    {
+      "name": "Pizza",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "time": "2h 30min",
+      "bake": "15min",
+      "servings": "8",
+      "steps": [
+        {
+          "description": "Add the warm water to a large bowl, stir in the sugar and yeast. Let sit for 10 minutes."
+        },
+        {
+          "description": "Add the {3}, salt, and {5}. Mix with spoon until just combined. Once it starts to look like a rough dough start kneading with your hands. Add more flour if the dough get's too sticky and kneed it until it becomes streachy and doesn't tear easily"
+        },
+        {
+          "description": "Divide dough into 2 even sized balls and place them into 2 bowls with some {3} at the bottom. Cover with plastic wrap and either let proof for 2h or store in fridge until needed for up to a week."
+        },
+        {
+          "description": "When you're ready to bake, preheat your oven to it's maximum temperature and line an oven tray with baking paper."
+        },
+        {
+          "description": "Stretch out the dough into a rough circle and place on the baking paper. Poke some holes into the dough with a fork and place into heated oven for 5 to 7 minutes"
+        },
+        {
+          "description": "Take out the pre-baked crust and add {6}, {7}, and {8}. Place back into the oven for another 5 to 7 minutes until the edges are starting to look dark."
+        },
+        {
+          "description": "Let cool for 10 minutes and slice!"
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Water",
+          "amount": {
+            "value": "265",
+            "unit": "ml"
+          },
+          "comment": "warmed to body temperature"
+        },
+        {
+          "name": "White sugar",
+          "amount": {
+            "value": "1/2",
+            "unit": "tablespoon"
+          }
+        },
+        {
+          "name": "Dry yeast",
+          "amount": {
+            "value": "1/2",
+            "unit": "tablespoon"
+          },
+          "alternatives": ["Wet yeast"]
+        },
+        {
+          "name": "Olive oil",
+          "amount": {
+            "value": "1",
+            "unit": "tablespoon"
+          },
+          "alternatives": [
+            "Vegetable oil",
+            "Sunflower seed oil",
+            "Molten butter"
+          ]
+        },
+        {
+          "name": "Salt",
+          "amount": {
+            "value": "1/2",
+            "unit": "tablespoon"
+          }
+        },
+        {
+          "name": "Bread flour",
+          "amount": {
+            "value": "400",
+            "unit": "g"
+          },
+          "alternatives": ["All-purpose flour", "Whole-wheat flour"]
+        },
+        {
+          "name": "Tomato sauce",
+          "amount": {
+            "value": "200",
+            "unit": "g"
+          },
+          "alternatives": [
+            "Olive Oil and Garlic",
+            "Sweet Chili Sauce",
+            "Ketchup"
+          ]
+        },
+        {
+          "name": "Low-moisture mozzarella",
+          "amount": {
+            "value": "200",
+            "unit": "g"
+          },
+          "alternatives": ["Any low-moisture cheese"]
+        },
+        {
+          "name": "Pepperoni",
+          "amount": {
+            "value": "100",
+            "unit": "g"
+          },
+          "alternatives": [
+            "Dried tomato",
+            "Mushrooms",
+            "Pineapple and ham",
+            "Olives",
+            "Basil",
+            "10g grated parmesan"
+          ]
+        }
+      ],
+      "tags": ["Fun"]
+    },
+    {
+      "name": "Keto Chicken Thighs",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1628294895933-4360614f39dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1132&q=80",
+      "time": "1h",
+      "servings": "4",
+      "steps": [
+        {
+          "description": "Preheat the oven to 200C."
+        },
+        {
+          "description": "Thoroughly season chicken thighs with {1}, salt, and pepper."
+        },
+        {
+          "description": "Cook bacon on medium heat in a pan for 5 minutes, afterwards drain excess grease."
+        },
+        {
+          "description": "Place chicken thighs into pan and cook for 3-4 minutes, then place into glass dish and cook in the oven for 30 minutes. Place chicken in a plate and cover with aluminum foil to keep warm. Discard all but 2 tablespoons of left over drippings."
+        },
+        {
+          "description": "Pour 2 tablespoons chicken drippings into pan and over medium heat add {5} and mushrooms. Cook 3 to 4 minutes until soft, then add heavy cream and whisk together. Reduce heat to medium-low. Season with salt and pepper if necessary."
+        },
+        {
+          "description": "Return chicken to pan and heat for 3 minutes. Top with bacon and {8}. Serve hot, spooning sauce over chicken."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Chicken thighs with bone",
+          "amount": {
+            "value": "280",
+            "unit": "g"
+          }
+        },
+        {
+          "name": "Paprika",
+          "amount": {
+            "value": "1",
+            "unit": "teaspoon"
+          },
+          "alternatives": ["General spice mix for meat"]
+        },
+        {
+          "name": "Salt",
+          "amount": {
+            "value": "1/2",
+            "unit": "teaspoon"
+          }
+        },
+        {
+          "name": "Pepper",
+          "amount": {
+            "value": "1/4",
+            "unit": "teaspoon"
+          }
+        },
+        {
+          "name": "Bacon",
+          "amount": {
+            "value": "4",
+            "unit": "slices"
+          },
+          "comment": "sliced"
+        },
+        {
+          "name": "Chicken broth",
+          "amount": {
+            "value": "80",
+            "unit": "ml"
+          },
+          "alternatives": ["Chicken bullion cube dissolved in hot water"]
+        },
+        {
+          "name": "Mushrooms",
+          "amount": {
+            "value": "120",
+            "unit": "g"
+          },
+          "comment": "sliced"
+        },
+        {
+          "name": "Heavy cream",
+          "amount": {
+            "value": "60",
+            "unit": "ml"
+          }
+        },
+        {
+          "name": "Green onions",
+          "amount": {
+            "value": "2"
+          },
+          "alternatives": ["Leeks", "scallions"],
+          "comment": "sliced"
+        }
+      ],
+      "tags": ["Keto"]
+    },
+    {
+      "name": "Mushroom Risotto",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1621341258668-b2bf005a9f97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "time": "50min",
+      "servings": "6",
+      "steps": [
+        {
+          "description": "Warm the {0} in a saucepan."
+        },
+        {
+          "description": "Warm 2 tablespoons olive oil in a large saucepan over medium heat, stir in the mushrooms. Cook 3 minutes until soft, then take off the heat and se aside."
+        },
+        {
+          "description": "Add 1 tablespoon olive oil to skillet, stir in {4}, cook until lightly browned. While stirring add rice and cook for 2 minutes. Pour in wine while stirring constantly until the wine is fully absorbed."
+        },
+        {
+          "description": "Add 120ml {0} to the rice and stir until absorbed. Continue to add broth in 120ml amounts for 15 to 25 minutes until rice is al dente."
+        },
+        {
+          "description": "Remove from heat, add mushrooms, butter, {9}, and parmesan. Season with salt and pepper to taste."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Chicken broth",
+          "amount": {
+            "value": "1420",
+            "unit": "ml"
+          },
+          "alternatives": ["Chicken bullion cubes dissolved in hot water"]
+        },
+        {
+          "name": "Olive oil",
+          "amount": {
+            "value": "3",
+            "unit": "tablespoons"
+          }
+        },
+        {
+          "name": "Portobello mushrooms",
+          "amount": {
+            "value": "200",
+            "unit": "g"
+          },
+          "alternatives": ["White mushrooms"],
+          "comment": "finely sliced"
+        },
+        {
+          "name": "White mushrooms",
+          "amount": {
+            "value": "200",
+            "unit": "g"
+          },
+          "comment": "finely sliced"
+        },
+        {
+          "name": "Shallots",
+          "amount": {
+            "value": "2",
+            "unit": "units"
+          },
+          "alternatives": ["Onion"],
+          "comment": "diced"
+        },
+        {
+          "name": "Arborio rice",
+          "amount": {
+            "value": "330",
+            "unit": "g"
+          },
+          "alternatives": ["Any rice"]
+        },
+        {
+          "name": "Dry white wine",
+          "amount": {
+            "value": "120",
+            "unit": "ml"
+          }
+        },
+        {
+          "name": "Salt",
+          "amount": {
+            "value": "to taste",
+            "unit": "units"
+          }
+        },
+        {
+          "name": "Black pepper",
+          "amount": {
+            "value": "1/2",
+            "unit": "teaspoon"
+          }
+        },
+        {
+          "name": "Chives",
+          "amount": {
+            "value": "3",
+            "unit": "tablespoons"
+          },
+          "alternatives": ["Leeks"],
+          "comment": "finely chopped"
+        },
+        {
+          "name": "Butter",
+          "amount": {
+            "value": "4",
+            "unit": "tablespoons"
+          }
+        },
+        {
+          "name": "Parmesan cheese",
+          "amount": {
+            "value": "30",
+            "unit": "g"
+          }
+        }
+      ],
+      "tags": ["Gourmet"]
+    },
+    {
+      "name": "Homemade Burger and Fries",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1477617722074-45613a51bf6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "time": "50min",
+      "servings": "2",
+      "steps": [
+        {
+          "description": "Cut potatoes in 2cm wide strips. Place in a large bowl filled with warm water and soak for 20 minutes."
+        },
+        {
+          "description": "Fill a pot with the {1} and heat on medium heat until it reaches 175C. Line a baking sheet with paper towels and set a wire rack on top."
+        },
+        {
+          "description": "Drain potatoes well and dry thoroughly with paper towels. Add half of the dried potatoes to the hot oil and cook, stirring often for 3 minutes until they soften slightly. Remove potatoes to the wire rack to drain. Repeat with remaining potatoes. Maintain oil temperature at 175C."
+        },
+        {
+          "description": "Divide ground beef into 4 portions and flatten to form 6mm thick patties."
+        },
+        {
+          "description": "Heat a large skillet over medium heat. Toast buns until bottom sides are lightly brown . Add burger patties to the hot skillet and cook undisturbed for 2 to 3 minutes until a brown crust has formed around the edges. Flip, press down with a spatula to flatten, and cook for 2 more minutes. Flip again, press down once more, then top each patty with a slice of cheese and cook for another minute."
+        },
+        {
+          "description": "While the burgers cook, spread mustard and {12} on bottom halves of the buns. Drizzle {4} on the top halves of the buns, then spread mayonnaise over top. Layer with lettuce, tomato slices, pickles, and onions."
+        },
+        {
+          "description": "Invert 1 patty onto a second patty so the cheese sides are touching. Repeat with remaining 2 patties. Place a stacked patty onto each top bun, and cover with a bottom bun, condiment-side down. Wrap burgers in aluminum foil."
+        },
+        {
+          "description": "Return fries to the hot oil and cook for another 3 to 4 minutes until golden brown. Drain on paper towels and sprinkle with salt. Serve immediately with burgers."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Potatoes",
+          "amount": {
+            "value": "2",
+            "unit": "units"
+          },
+          "comment": "medium"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": {
+            "value": "1",
+            "unit": "l"
+          },
+          "alternatives": ["Pomace Olive oil", "Sunflower seed oil"]
+        },
+        {
+          "name": "Ground beef",
+          "amount": {
+            "value": "400",
+            "unit": "g"
+          }
+        },
+        {
+          "name": "American cheese",
+          "amount": {
+            "value": "4",
+            "unit": "slices"
+          },
+          "alternatives": ["Any low-moisture cheese"]
+        },
+        {
+          "name": "Hot sauce",
+          "amount": {
+            "value": "1",
+            "unit": "teaspoon"
+          },
+          "alternatives": ["Tomato sauce"]
+        },
+        {
+          "name": "Mayonnaise",
+          "amount": {
+            "value": "1",
+            "unit": "tablespoon"
+          }
+        },
+        {
+          "name": "Burger buns",
+          "amount": {
+            "value": "2",
+            "unit": "units"
+          }
+        },
+        {
+          "name": "Lettuce",
+          "amount": {
+            "value": "36",
+            "unit": "g"
+          },
+          "comment": "shredded"
+        },
+        {
+          "name": "Tomato",
+          "amount": {
+            "value": "2",
+            "unit": "slices"
+          }
+        },
+        {
+          "name": "Onion",
+          "amount": {
+            "value": "2",
+            "unit": "tablespoons"
+          },
+          "comment": "diced"
+        },
+        {
+          "name": "Pickle",
+          "amount": {
+            "value": "1"
+          },
+          "comment": "sliced"
+        },
+        {
+          "name": "Mustard",
+          "amount": {
+            "value": "2",
+            "unit": "teaspoons"
+          }
+        },
+        {
+          "name": "Ketchup",
+          "amount": {
+            "value": "2",
+            "unit": "teaspoons"
+          },
+          "alternatives": ["Tomato sauce"]
+        },
+        {
+          "name": "Salt",
+          "amount": {
+            "value": "1",
+            "unit": "teaspoon"
+          }
+        }
+      ],
+      "tags": ["Fun"]
+    },
+    {
+      "name": "Honey Garlic Salmon with Rice",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1606756790138-261d2b21cd75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+      "time": "30min",
+      "servings": "4",
+      "steps": [
+        {
+          "description": "Add rice to about 400ml of water, cover the pot, and boil for 20min. Afterwards remove from heat and let steam for another 5 minutes."
+        },
+        {
+          "description": "While, the rice is boiling, season the salmon with salt and pepper."
+        },
+        {
+          "description": "Add the oil to a skillet over medium heat, and when it's hot, add the salmon skin side up. Cook it for 4-5 minutes on each side."
+        },
+        {
+          "description": "Meanwhile, add the lemon juice, soy sauce, honey, and garlic to a bowl and stir until it's mixed."
+        },
+        {
+          "description": "Take the fish out of the pan and set aside."
+        },
+        {
+          "description": "Pour the sauce mixture into the pan and let it bubble for a couple of minutes to thicken up. Add the fish back in the pan and spoon the sauce over it. Squeeze some lemon juice onto salmon, serve with rice."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Rice",
+          "amount": {
+            "value": "220",
+            "unit": "g"
+          }
+        },
+        {
+          "name": "Salmon",
+          "amount": {
+            "value": "450",
+            "unit": "g"
+          },
+          "comment": "cut into 4 pieces"
+        },
+        {
+          "name": "Olive oil",
+          "amount": {
+            "value": "1",
+            "unit": "tablespoon"
+          }
+        },
+        {
+          "name": "Salt",
+          "amount": {
+            "value": "1/2",
+            "unit": "teaspoon"
+          }
+        },
+        {
+          "name": "Pepper",
+          "amount": {
+            "value": "1/4",
+            "unit": "teaspoon"
+          }
+        },
+        {
+          "name": "Lemon juice",
+          "amount": {
+            "value": "1",
+            "unit": "tablespoon"
+          }
+        },
+        {
+          "name": "Soy sauce",
+          "amount": {
+            "value": "1",
+            "unit": "tablespoon"
+          }
+        },
+        {
+          "name": "Honey",
+          "amount": {
+            "value": "90",
+            "unit": "g"
+          }
+        },
+        {
+          "name": "Garlic",
+          "amount": {
+            "value": "3",
+            "unit": "cloves"
+          },
+          "comment": "minced"
+        }
+      ],
+      "tags": ["Fast"]
+    },
+    {
+      "name": "Lo Mein Noodles",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1553621043-f607bfbf6640?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
+      "time": "40min",
+      "servings": "4",
+      "steps": [
+        {
+          "description": "Bring a large pot of lightly salted water to a boil. Cook {0} in the boiling water according to package instructions, stirring occasionally until cooked through but firm to the bite. Drain and rinse the {0} with cold water to cool and drain again."
+        },
+        {
+          "description": "While, the {0} is boiling, whisk soy sauce, teriyaki sauce, honey, and ground ginger together in a bowl."
+        },
+        {
+          "description": "Heat oil in a large skillet or wok over high heat. Cook and stir celery, carrots, {9}, and {10} for 5 to 7 minutes in the hot oil until slightly tender. Add {0} and sauce mixture. Continue to cook for about 5 minutes, tossing to mix, until the {0} and sauce are hot."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "amount": {
+            "value": "230",
+            "unit": "g"
+          },
+          "alternatives": ["Egg noodles"]
+        },
+        {
+          "name": "Soy sauce",
+          "amount": {
+            "value": "3",
+            "unit": "tablespoons"
+          }
+        },
+        {
+          "name": "Teriyaki sauce",
+          "amount": {
+            "value": "2",
+            "unit": "tablespoons"
+          }
+        },
+        {
+          "name": "Honey",
+          "amount": {
+            "value": "2",
+            "unit": "tablespoons"
+          }
+        },
+        {
+          "name": "Salt",
+          "amount": {
+            "value": "1",
+            "unit": "teaspoon"
+          }
+        },
+        {
+          "name": "Ground ginger",
+          "amount": {
+            "value": "1/4",
+            "unit": "teaspoon"
+          }
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": {
+            "value": "2",
+            "unit": "tablespoons"
+          },
+          "alternatives": ["Olive oil"]
+        },
+        {
+          "name": "Celery",
+          "amount": {
+            "value": "3",
+            "unit": "stalks"
+          },
+          "comment": "sliced"
+        },
+        {
+          "name": "Carrots",
+          "amount": {
+            "value": "2",
+            "unit": "units"
+          },
+          "comment": "cut into 3cm vertical slices"
+        },
+        {
+          "name": "Sweet onion",
+          "amount": {
+            "value": "1/2"
+          },
+          "alternatives": ["Onion", "Garlic"],
+          "comment": "finely sliced"
+        },
+        {
+          "name": "Green onion",
+          "amount": {
+            "value": "2",
+            "unit": "units"
+          },
+          "alternatives": ["Leeks"],
+          "comment": "sliced"
+        }
+      ],
+      "tags": ["Chinese"]
+    },
+    {
+      "name": "Garlic Bread",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1196&q=80",
+      "time": "35min",
+      "servings": "8",
+      "steps": [
+        {
+          "description": "Preheat the oven to 200C. Line a baking sheet with aluminum foil."
+        },
+        {
+          "description": "Mix butter, olive oil, minced garlic, garlic powder, parsley, and salt in a bowl until well combined."
+        },
+        {
+          "description": "Cut the {6} into 2cm slices and spread garlic mixture over each slice. Place each on a baking sheet. Wrap with additional aluminum foil."
+        },
+        {
+          "description": "Bake in the preheated oven for 25 to 30 minutes until the {6} is crispy and heated through."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Butter",
+          "amount": {
+            "value": "110",
+            "unit": "g"
+          },
+          "comment": "room temperature"
+        },
+        {
+          "name": "Olive oil",
+          "amount": {
+            "value": "3",
+            "unit": "tablespoons"
+          }
+        },
+        {
+          "name": "Garlic",
+          "amount": {
+            "value": "4",
+            "unit": "cloves"
+          },
+          "comment": "minced"
+        },
+        {
+          "name": "Garlic powder",
+          "amount": {
+            "value": "1",
+            "unit": "tablespoon"
+          }
+        },
+        {
+          "name": "Parsley",
+          "amount": {
+            "value": "1",
+            "unit": "tablespoon"
+          }
+        },
+        {
+          "name": "Salt",
+          "amount": {
+            "value": "1/2",
+            "unit": "teaspoon"
+          }
+        },
+        {
+          "name": "Bread",
+          "amount": {
+            "value": "1",
+            "unit": "loaf"
+          },
+          "alternatives": ["French baguette"]
+        }
+      ],
+      "tags": ["Easy"]
+    }
+  ]
+}
