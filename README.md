@@ -8,6 +8,8 @@ We plan to create an intuitive and fast virtual assistant to aid in the shopping
 
 ![Image 1](/.images/image_1.png)
 
+![Image 2](/.images/image_2.png)
+
 ## Running
 
 In the project directory, you can run:
