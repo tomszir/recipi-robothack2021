@@ -14,25 +14,30 @@ We plan to create an intuitive and fast virtual assistant to aid in the shopping
 
 ![Image 2](/.images/image_2.png)
 
-## Running
+## Technologies
 
-In the project directory, you can run:
+We used some of the following technologies:
 
-### `yarn start`
+- React & TypeScript - the front-end app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Node.js - in Firebase Cloud Functions to manage the chatbot API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Dialogform - chatbot machine learning integration
 
-### `yarn test`
+- Firebase - user authentication, database, back-end API callsl
 
-Launches the test runner in the interactive watch mode.\
+## Our Team
 
-### `yarn build`
+- Toms Zvirbulis - Developer
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Juris Ozoliņš - Business
 
-The build is minified and the filenames include the hashes.\
+- Rūdolfs Hāns - Design
+
+## Acknowledgments
+
+Special thanks to all the mentors that participated in this hackathon and provided their valuable feedback!
+
+## License
+
+This project is using the [MIT License](./LICENSE)
