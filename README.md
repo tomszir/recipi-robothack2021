@@ -4,6 +4,10 @@ Home cooking is a fun and often necessary activity, but what is not fun is havin
 
 We plan to create an intuitive and fast virtual assistant to aid in the shopping and home cooking process, which integrates with the user's local shops and locates the best deals on user-specified items. In addition, our assistant could quickly convert a whole recipe into the metric system as well as suggest potential substitutes for certain ingredients the user might not want to use.
 
+## Images
+
+![Image 1](/.images/image_1.png)
+
 ## Running
 
 In the project directory, you can run:

@@ -6,7 +6,7 @@ import dialogflow from "@google-cloud/dialogflow";
 import { WebhookClient } from "dialogflow-fulfillment";
 import { v4 } from "uuid";
 
-import { secret } from "./secret2";
+import { secret } from "./secret";
 
 /*
 initializeApp({
