@@ -1,3 +1,4 @@
+import { CustomTheme } from "@/providers/theme";
 import styled, { css } from "styled-components";
 
 export const Leading = styled.div`
@@ -10,7 +11,6 @@ export const Trailing = styled.div`
 
 export const Label = styled.span`
   flex: 1;
-  color: #53535f;
   font-family: "Outfit", sans-serif;
 `;
 
@@ -44,25 +44,29 @@ export const Item = styled.a<{
     transition: all 0.125s ease;
   }
 
-  &:hover {
-    svg {
-      color: #40916c;
-    }
+  ${({ theme }: { theme: CustomTheme }) => css`
+    color: ${theme.colors.navInactiveColor};
 
-    ${Label} {
-      color: #40916c;
-    }
-  }
-
-  ${({ active }) =>
-    active &&
-    css`
+    &:hover {
       svg {
-        color: #40916c;
+        color: ${theme.colors.navActiveColor};
       }
 
       ${Label} {
-        color: #40916c;
+        color: ${theme.colors.navActiveColor};
+      }
+    }
+  `}
+
+  ${({ active, theme }) =>
+    active &&
+    css`
+      svg {
+        color: ${theme.colors.navActiveColor};
+      }
+
+      ${Label} {
+        color: ${theme.colors.navActiveColor};
       }
     `}
 `;
@@ -75,7 +79,9 @@ export const ActiveIndicator = styled.div`
   width: 4px;
   height: 22px;
 
-  background-color: #40916c;
+  ${({ theme }: { theme: CustomTheme }) => css`
+    background-color: ${theme.colors.navActiveColor};
+  `}
 
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;

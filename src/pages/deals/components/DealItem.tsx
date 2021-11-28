@@ -25,10 +25,16 @@ export default function DealItem({ deal }: DealItemProps) {
         </div>
       </S.ThumbnailWrapper>
       <div className="content">
-        <div style={{ marginBottom: 4 }}>{deal.type}</div>
-        <h2>{deal.name}</h2>
+        <div className="brand" style={{ marginBottom: 4 }}>
+          <span>{deal.type}</span>
+        </div>
+        <h2>
+          {deal.name} {deal.brand && deal.brand}
+        </h2>
         <div className="price">
-          <b>{deal.price.amount}</b> {deal.price.currency}
+          <span>
+            <b>{deal.price.amount}</b> {deal.price.currency}
+          </span>
         </div>
         <div className="buttons">
           <Button
@@ -37,7 +43,15 @@ export default function DealItem({ deal }: DealItemProps) {
             }}
             label={<span style={{ marginLeft: 6 }}>Suggest me a recipe</span>}
           />
-          <Button type="outline" label={<FiShoppingCart size={18} />} />
+          <Button
+            type="outline"
+            label={<FiShoppingCart size={18} />}
+            onClick={() => {
+              if (deal.link) {
+                window.open(deal.link);
+              }
+            }}
+          />
         </div>
       </div>
     </S.Item>

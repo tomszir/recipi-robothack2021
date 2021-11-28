@@ -1,0 +1,484 @@
+{
+  "deals": [
+    {
+      "name": "Pork ham",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "price": {
+        "amount": 2.29,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 3.99,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Rimi",
+        "logoUrl": "https://media-exp1.licdn.com/dms/image/C560BAQHawI0hlmTDEg/company-logo_200_200/0/1554115922281?e=2159024400&v=beta&t=sF3h1IBHL6GIAaDRHBVzrr6wz_U1qBw4Iwo9-UvfrsI"
+      },
+      "link": "https://www.rimi.lv/piedavajumi/760353"
+    },
+    {
+      "name": "Chicken Thighs",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1624364543842-b0472614eb68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "price": {
+        "amount": 1.55,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 1.95,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Rimi",
+        "logoUrl": "https://media-exp1.licdn.com/dms/image/C560BAQHawI0hlmTDEg/company-logo_200_200/0/1554115922281?e=2159024400&v=beta&t=sF3h1IBHL6GIAaDRHBVzrr6wz_U1qBw4Iwo9-UvfrsI"
+      },
+      "link": "https://www.rimi.lv/e-veikals/lv/produkti/p/971896?source=rimiweb"
+    },
+    {
+      "name": "All-purpose flour",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1627735483792-233bf632619b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1185&q=80",
+      "price": {
+        "amount": 1.19,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 1.95,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Rimi",
+        "logoUrl": "https://media-exp1.licdn.com/dms/image/C560BAQHawI0hlmTDEg/company-logo_200_200/0/1554115922281?e=2159024400&v=beta&t=sF3h1IBHL6GIAaDRHBVzrr6wz_U1qBw4Iwo9-UvfrsI"
+      },
+      "link": "https://www.rimi.lv/e-veikals/lv/produkti/p/137190?source=rimiweb"
+    },
+    {
+      "name": "Tomato sauce",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "price": {
+        "amount": 1.59,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 2.25,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Rimi",
+        "logoUrl": "https://media-exp1.licdn.com/dms/image/C560BAQHawI0hlmTDEg/company-logo_200_200/0/1554115922281?e=2159024400&v=beta&t=sF3h1IBHL6GIAaDRHBVzrr6wz_U1qBw4Iwo9-UvfrsI"
+      },
+      "link": "https://www.rimi.lv/e-veikals/lv/meklesana?query=M%C4%93rce+RUND%C4%80LE"
+    },
+    {
+      "name": "Honey",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "price": {
+        "amount": 2.29,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 3.75,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Rimi",
+        "logoUrl": "https://media-exp1.licdn.com/dms/image/C560BAQHawI0hlmTDEg/company-logo_200_200/0/1554115922281?e=2159024400&v=beta&t=sF3h1IBHL6GIAaDRHBVzrr6wz_U1qBw4Iwo9-UvfrsI"
+      },
+      "link": "https://www.rimi.lv/e-veikals/lv/produkti/p/111478?source=rimiweb"
+    },
+    {
+      "name": "Pomace Olive oil",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=718&q=80",
+      "price": {
+        "amount": 6.99,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 10.99,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Rimi",
+        "logoUrl": "https://media-exp1.licdn.com/dms/image/C560BAQHawI0hlmTDEg/company-logo_200_200/0/1554115922281?e=2159024400&v=beta&t=sF3h1IBHL6GIAaDRHBVzrr6wz_U1qBw4Iwo9-UvfrsI"
+      },
+      "link": "https://www.rimi.lv/e-veikals/lv/produkti/p/196972?source=rimiweb"
+    },
+    {
+      "name": "Mayonnaise",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1562114808-b4b33cf60f4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+      "price": {
+        "amount": 1.09,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 1.43,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Rimi",
+        "logoUrl": "https://media-exp1.licdn.com/dms/image/C560BAQHawI0hlmTDEg/company-logo_200_200/0/1554115922281?e=2159024400&v=beta&t=sF3h1IBHL6GIAaDRHBVzrr6wz_U1qBw4Iwo9-UvfrsI"
+      },
+      "link": "https://www.rimi.lv/e-veikals/lv/produkti/p/910803?source=rimiweb"
+    },
+    {
+      "name": "Milk",
+      "brand": "ALMA",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1559598467-f8b76c8155d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "price": {
+        "amount": 0.85,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 0.99,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Top!",
+        "logoUrl": "https://www.toppartika.lv/front/img/logo.png"
+      },
+      "link": "https://www.toppartika.lv/f/akcijas/181.pdf"
+    },
+    {
+      "name": "Chicken Thighs",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "price": {
+        "amount": 1.89,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 2.49,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Top!",
+        "logoUrl": "https://www.toppartika.lv/front/img/logo.png"
+      },
+      "link": "https://www.toppartika.lv/f/akcijas/181.pdf"
+    },
+    {
+      "name": "Milk",
+      "brand": "MARGE",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1611211301828-be4b317d0707?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "price": {
+        "amount": 0.89,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 1.09,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Top!",
+        "logoUrl": "https://www.toppartika.lv/front/img/logo.png"
+      },
+      "link": "https://www.toppartika.lv/f/akcijas/181.pdf"
+    },
+    {
+      "name": "Kefir",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "price": {
+        "amount": 1.19,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 1.45,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Top!",
+        "logoUrl": "https://www.toppartika.lv/front/img/logo.png"
+      },
+      "link": "https://www.toppartika.lv/f/akcijas/181.pdf"
+    },
+    {
+      "name": "Butter",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "price": {
+        "amount": 1.29,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 2.29,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Top!",
+        "logoUrl": "https://www.toppartika.lv/front/img/logo.png"
+      },
+      "link": "https://www.toppartika.lv/f/akcijas/181.pdf"
+    },
+    {
+      "name": "Eggs",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1498654077810-12c21d4d6dc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "price": {
+        "amount": 1.29,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 2.15,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Top!",
+        "logoUrl": "https://www.toppartika.lv/front/img/logo.png"
+      },
+      "link": "https://www.toppartika.lv/f/akcijas/181.pdf"
+    },
+    {
+      "name": "Cheese",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1589881133595-a3c085cb731d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+      "price": {
+        "amount": 5.99,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 6.49,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Top!",
+        "logoUrl": "https://www.toppartika.lv/front/img/logo.png"
+      },
+      "link": "https://www.toppartika.lv/f/akcijas/181.pdf"
+    },
+    {
+      "name": "Pork",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1602470521006-aaea8b2fcc36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "price": {
+        "amount": 2.49,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 5.79,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Maxima",
+        "logoUrl": "https://www.maxima.lv/images/front/logos/maxima.svg"
+      },
+      "link": "https://www.maxima.lv/akcijas-avizes/x-xx-xxx-47-2021"
+    },
+    {
+      "name": "Cheese",
+      "brand": "MAASDAM",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1618164436241-4473940d1f5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "price": {
+        "amount": 5.49,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 9.99,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Maxima",
+        "logoUrl": "https://www.maxima.lv/images/front/logos/maxima.svg"
+      },
+      "link": "https://www.maxima.lv/akcijas-avizes/x-xx-xxx-47-2021"
+    },
+    {
+      "name": "Butter",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1589985269102-ff38adf6f00d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80",
+      "price": {
+        "amount": 1.29,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 2.09,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Maxima",
+        "logoUrl": "https://www.maxima.lv/images/front/logos/maxima.svg"
+      },
+      "link": "https://www.maxima.lv/akcijas-avizes/x-xx-xxx-47-2021"
+    },
+    {
+      "name": "Milk",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1600788907416-456578634209?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
+      "price": {
+        "amount": 0.79,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 1.12,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Maxima",
+        "logoUrl": "https://www.maxima.lv/images/front/logos/maxima.svg"
+      },
+      "link": "https://www.maxima.lv/akcijas-avizes/x-xx-xxx-47-2021"
+    },
+    {
+      "name": "Kefir",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1501199643997-e3ed9bfbd317?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "price": {
+        "amount": 0.99,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 1.24,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Maxima",
+        "logoUrl": "https://www.maxima.lv/images/front/logos/maxima.svg"
+      },
+      "link": "https://www.maxima.lv/akcijas-avizes/x-xx-xxx-47-2021"
+    },
+    {
+      "name": "Cheese",
+      "brand": "RUSSIAN",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1632200751394-832eb7d4ce5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "price": {
+        "amount": 2.29,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 3.99,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Maxima",
+        "logoUrl": "https://www.maxima.lv/images/front/logos/maxima.svg"
+      },
+      "link": "https://www.maxima.lv/akcijas-avizes/x-xx-xxx-47-2021"
+    },
+    {
+      "name": "Eggs",
+      "type": "Store",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1587486913049-53fc88980cfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "price": {
+        "amount": 0.99,
+        "currency": "eur"
+      },
+      "normalPrice": {
+        "amount": 1.73,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Maxima",
+        "logoUrl": "https://www.maxima.lv/images/front/logos/maxima.svg"
+      },
+      "link": "https://www.maxima.lv/akcijas-avizes/x-xx-xxx-47-2021"
+    },
+    {
+      "name": "Eggs",
+      "type": "Community",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518569656558-1f25e69d93d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "price": {
+        "amount": 1.69,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Anna",
+        "logoUrl": "https://images.unsplash.com/photo-1618775298440-67008a238794?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      },
+      "link": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Farmer_meme.jpg"
+    },
+    {
+      "name": "Milk",
+      "type": "Community",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1576186726188-c9d70843790f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+      "price": {
+        "amount": 0.69,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Igor",
+        "logoUrl": "https://images.unsplash.com/photo-1446126102442-f6b2b73257fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      },
+      "link": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Farmer_meme.jpg"
+    },
+    {
+      "name": "Carrot",
+      "type": "Community",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "price": {
+        "amount": 0.89,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Irina",
+        "logoUrl": "https://images.unsplash.com/photo-1498757581981-8ddb3c0b9b07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+      },
+      "link": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Farmer_meme.jpg"
+    },
+    {
+      "name": "Cheese",
+      "type": "Community",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1624806992066-5ffcf7ca186b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+      "price": {
+        "amount": 8.69,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Jana",
+        "logoUrl": "https://images.unsplash.com/photo-1589922585618-dfd1fcd87c28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      },
+      "link": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Farmer_meme.jpg"
+    },
+    {
+      "name": "Butter",
+      "type": "Community",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1573812461383-e5f8b759d12e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "price": {
+        "amount": 2.0,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Andris",
+        "logoUrl": "https://images.unsplash.com/photo-1521140714186-512186ea3d3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+      },
+      "link": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Farmer_meme.jpg"
+    },
+    {
+      "name": "Potato",
+      "type": "Community",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1623428453655-44feea11454b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "price": {
+        "amount": 0.39,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Daniels",
+        "logoUrl": "https://images.unsplash.com/photo-1569880153113-76e33fc52d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      },
+      "link": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Farmer_meme.jpg"
+    },
+    {
+      "name": "Honey",
+      "type": "Community",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1471943311424-646960669fbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "price": {
+        "amount": 5.75,
+        "currency": "eur"
+      },
+      "seller": {
+        "name": "Boris",
+        "logoUrl": "https://images.unsplash.com/photo-1569127972006-e86309d02e81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      },
+      "link": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Farmer_meme.jpg"
+    }
+  ]
+}

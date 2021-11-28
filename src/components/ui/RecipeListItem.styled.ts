@@ -1,5 +1,6 @@
+import { CustomTheme } from "@/providers/theme";
 import { down } from "styled-breakpoints";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const ThumbnailWrapper = styled.div`
   width: 100%;
@@ -13,6 +14,7 @@ export const Thumbnail = styled.img`
   width: 100%;
   cursor: pointer;
   transition: ease 0.15s all;
+  object-fit: cover;
 
   height: 100%;
 `;
@@ -87,7 +89,11 @@ export const LikeButton = styled.button`
   transition: all 0.15s ease;
   &:hover {
     color: #fff;
-    background-color: #40916c;
+    ${({ theme }: { theme: CustomTheme }) => css`
+      background-color: ${theme.colors.navActiveColor};
+
+      ${theme.colors.navActiveColor === "#ffff00" && "color: #000;"}
+    `}
   }
 `;
 
@@ -101,12 +107,19 @@ export const TagList = styled.div`
   }
 `;
 
-export const Tag = styled.div`
+export const Tag = styled.div<{ active?: boolean }>`
   cursor: pointer;
   font-size: 0.8em;
 
-  color: #40916c;
-  border: 1px solid #40916c;
+  ${({ theme }: { theme: CustomTheme }) => css`
+    color: ${theme.colors.navActiveColor};
+    border: 1px solid ${theme.colors.navActiveColor};
+
+    &:hover {
+      background-color: ${theme.colors.navActiveColor + "1f"};
+    }
+  `}
+
   padding: 8px 12px;
   border-radius: 2px 12px;
   text-transform: capitalize;
@@ -120,16 +133,22 @@ export const Tag = styled.div`
 
   transition: all 0.15s ease;
 
-  &:hover {
-    background-color: #40916c1f;
-  }
+  ${({ active }) =>
+    active &&
+    css`
+      background-color: #40916c3f;
+    `}
 `;
 
 export const Item = styled.div`
   position: relative;
   overflow: hidden;
   border-radius: 12px;
-  background-color: #fff;
+
+  ${({ theme }: { theme: CustomTheme }) => css`
+    background-color: ${theme.colors.bg};
+    border: ${theme.colors.borderColor} 1px solid;
+  `}
 
   a {
     border-bottom: 1px solid transparent;

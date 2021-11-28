@@ -198,7 +198,9 @@ export default function MessageMenu({
 
     if (intent === "TELL_JOKE") {
       const { type, joke, setup, delivery } = await axios
-        .get("https://v2.jokeapi.dev/joke/Any")
+        .get(
+          "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
+        )
         .then(
           (res) =>
             res.data as {
@@ -248,10 +250,11 @@ export default function MessageMenu({
       return;
     }
 
-    if (intent === "RANDOM_RECIPE") {
-      const recipeCount = recipes.length;
-      const recipeIndex = Math.floor(Math.random() * recipeCount);
-      const recipe = recipes[recipeIndex];
+    if (intent === "RANDOM_RECIPE" || intent === "RANDOM_INGREDIENT") {
+      // const recipeCount = recipes.length;
+      // const recipeIndex = Math.floor(Math.random() * recipeCount);
+      // For demo purposes only pancake
+      const recipe = recipes[0];
 
       const botRecipeMessage = {
         content: <MessageRecipe recipe={recipe} />,

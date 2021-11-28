@@ -1,3 +1,4 @@
+import { CustomTheme } from "@/providers/theme";
 import styled, { css } from "styled-components";
 
 export const Message = styled.div<{ bot?: boolean }>`
@@ -9,17 +10,21 @@ export const Message = styled.div<{ bot?: boolean }>`
   border-radius: 12px;
   border-bottom-left-radius: 0;
 
-  background-color: #f1f1f1;
+  ${({ theme }: { theme: CustomTheme }) => css`
+    background-color: ${theme.colors.messageBotBubble};
+    color: ${theme.colors.messageBotBubbleText};
+  `}
 
   align-self: flex-start;
 
-  ${({ bot }) =>
+  ${({ bot, theme }) =>
     !bot &&
     css`
       align-self: flex-end;
 
       color: #fff;
-      background-color: #93cf93;
+      color: ${theme.colors.messageBubbleText};
+      background-color: ${theme.colors.messageBubble};
 
       border-radius: 12px;
       border-bottom-right-radius: 0;

@@ -1,3 +1,4 @@
+import { CustomTheme } from "@/providers/theme";
 import styled, { css } from "styled-components";
 
 export const Button = styled.button<{
@@ -22,15 +23,23 @@ export const Button = styled.button<{
     opacity: 0.8;
   }
 
-  ${({ _type }) =>
+  font-weight: bold;
+
+  ${({ theme }: { theme: CustomTheme }) => css`
+    background-color: ${theme.colors.navActiveColor};
+
+    ${theme.colors.navActiveColor === "#ffff00" && "color: #000;"}
+  `}
+
+  ${({ _type, theme }) =>
     _type === "outline" &&
     css`
-      color: #40916c;
-      border: 1px solid #40916c;
+      color: ${theme.colors.navActiveColor};
+      border: 1px solid ${theme.colors.navActiveColor};
       background-color: transparent;
 
       &:hover {
-        background-color: #40916c1f;
+        background-color: ${theme.colors.navActiveColor + "1f"};
       }
     `}
 `;

@@ -1,15 +1,18 @@
+import { CustomTheme } from "./../../../providers/theme";
 import { down } from "styled-breakpoints";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Nav = styled.nav`
   display: flex;
   flex-direction: column;
 
-  min-width: 240px;
   height: 100%;
 
-  background-color: #f9fff9;
-  border-right: 1px solid #e3e9e3;
+  ${({ theme }: { theme: CustomTheme }) => css`
+    min-width: ${240 + (theme.font.globalSize - 16) * 8}px;
+    background-color: ${theme.colors.bg};
+    border-right: ${theme.colors.navBorderColor} 1px solid;
+  `}
 
   ${down("md")} {
     display: none;
@@ -27,7 +30,6 @@ export const Footer = styled.div`
 
 export const Header = styled.div`
   padding: 0px 24px;
-  border-bottom: 1px solid #e3e9e3;
   display: flex;
   align-items: center;
 

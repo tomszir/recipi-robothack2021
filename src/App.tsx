@@ -25,6 +25,8 @@ import RecipePage from "./pages/recipe/RecipePage";
 import DealPage from "./pages/deals/Deals";
 
 import MainNavMobile from "./components/navigation/MainNav/MainNavMobile";
+import RecipesPage from "./pages/Recipes";
+import SettingsPage from "./pages/Settings";
 
 const MAIN_NAV_SECTIONS = [
   {
@@ -64,8 +66,10 @@ function App() {
       <S.Pages>
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/recipes" element={<RecipesPage />} />
           <Route path="/recipe/:id" element={<RecipePage />} />
           <Route path="/deals" element={<DealPage />} />
+          <Route path="/settings" element={<SettingsPage />} />
           <Route
             path="/me"
             element={

@@ -32,8 +32,8 @@ export const Container = styled.div`
 
 export const Grid = styled.div`
   display: grid;
-  row-gap: 2em;
-  column-gap: 1em;
+  row-gap: 24px;
+  column-gap: 12px;
   grid-template-columns: repeat(4, 1fr);
 
   ${down("lg")} {

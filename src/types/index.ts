@@ -25,6 +25,8 @@ export type Recipe = {
 export type Deal = {
   name: string;
   type: string;
+  link?: string;
+  brand?: string;
   thumbnailUrl: string;
   price: {
     amount: number;

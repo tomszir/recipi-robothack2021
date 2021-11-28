@@ -41,6 +41,12 @@ export const Container = styled.div`
     }
   }
 
+  ${({ theme }: { theme: any }) => css`
+    .checks__check {
+      color: ${theme.colors.text};
+    }
+  `}
+
   .checks__check:not(:first-child) {
     margin-top: 8px;
   }
@@ -136,7 +142,7 @@ export const StepItem = styled.div<{
   ${({ checked }) =>
     checked &&
     css`
-      background-color: #00ff001f;
+      background-color: #93cf93;
     `}
 `;
 

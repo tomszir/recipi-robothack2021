@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
-import { createGlobalStyle, ThemeProvider } from "styled-components";
+import { createGlobalStyle, css, ThemeProvider } from "styled-components";
 import { Normalize } from "styled-normalize";
 
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+// import reportWebVitals from "./reportWebVitals";
 
 import { AuthProvider } from "./providers/auth";
+import { CustomTheme, MyThemeProvider } from "./providers/theme";
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -22,24 +23,31 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
 
+  html {
+    ${({ theme }: { theme: CustomTheme }) => css`
+      font-size: ${theme.font.globalSize}px;
+      background-color: ${theme.colors.bg};
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        color: ${theme.colors.text} !important;
+      }
+    `}
+  }
+
   * {
     box-sizing: border-box;
   }
 `;
 
-const theme = {
-  breakpoints: {
-    xs: "0px",
-    sm: "576px",
-    md: "768px",
-    lg: "1366px",
-    xl: "1920px",
-  },
-};
-
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
+    <MyThemeProvider>
       <GlobalStyle />
       <Normalize />
       <BrowserRouter>
@@ -47,7 +55,7 @@ ReactDOM.render(
           <App />
         </AuthProvider>
       </BrowserRouter>
-    </ThemeProvider>
+    </MyThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

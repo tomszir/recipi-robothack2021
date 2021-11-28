@@ -1,3 +1,4 @@
+import { CustomTheme } from "@/providers/theme";
 import { down } from "styled-breakpoints";
 import styled, { css } from "styled-components";
 
@@ -41,19 +42,31 @@ export const MessageMenu = styled.div<{ show: boolean }>`
         bottom: calc(32px + 64px + 16px + 60px);
       }
     `}
+
+  ${({ theme }: { theme: CustomTheme }) => css`
+    background-color: ${theme.colors.bg};
+    border: ${theme.colors.navBorderColor} 1px solid;
+  `}
 `;
 
 export const MessageMenuHeader = styled.div`
   cursor: pointer;
   padding: 16px;
-  border-bottom: 1px solid #f1f1f1;
-  color: #1f1f1f;
+
+  ${({ theme }: { theme: CustomTheme }) => css`
+    color: ${theme.colors.text};
+    border-bottom: 1px solid ${theme.colors.navBorderColor};
+  `}
+
   display: flex;
   justify-content: space-between;
 `;
 
 export const MessageFooter = styled.div`
-  border-top: 1px solid #f1f1f1;
+  ${({ theme }: { theme: CustomTheme }) => css`
+    border-top: 1px solid ${theme.colors.navBorderColor};
+  `}
+
   display: flex;
 
   button {
@@ -68,6 +81,11 @@ export const MessageInput = styled.input`
   padding: 16px;
   border: none;
   width: 100%;
+
+  ${({ theme }: { theme: CustomTheme }) => css`
+    color: ${theme.colors.text};
+  `}
+  background-color: transparent;
 
   &:active,
   &:focus {

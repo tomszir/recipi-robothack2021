@@ -1,12 +1,19 @@
+import { CustomTheme } from "@/providers/theme";
 import { down } from "styled-breakpoints";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Button = styled.button`
   cursor: pointer;
   width: 64px;
   height: 64px;
   color: #fff;
-  background-color: #40916c;
+
+  ${({ theme }: { theme: CustomTheme }) => css`
+    background-color: ${theme.colors.navActiveColor};
+
+    ${theme.colors.navActiveColor === "#ffff00" && "color: #000;"}
+  `}
+
   position: fixed;
   bottom: 24px;
   right: 32px;

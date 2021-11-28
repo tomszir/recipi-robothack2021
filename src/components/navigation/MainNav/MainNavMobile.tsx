@@ -11,7 +11,7 @@ export default function MainNavMobile({ sections }: MainNavProps) {
     <S.Nav>
       {sections[0]?.items.map((item, i) => {
         return (
-          <S.NavItem to={item.to || "/"}>
+          <S.NavItem to={item.to || "/"} key={i}>
             {item.leading}
             <span className="label">{item.label}</span>
           </S.NavItem>

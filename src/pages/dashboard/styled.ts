@@ -61,8 +61,8 @@ export const List = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 
-  row-gap: 2rem;
-  column-gap: 1rem;
+  row-gap: 24px;
+  column-gap: 12px;
 
   ${down("lg")} {
     grid-template-columns: repeat(3, 1fr);

@@ -56,6 +56,7 @@ export function MainNavFooter() {
           leading: <FiUser />,
         },
         {
+          to: "/settings",
           label: "Settings",
           leading: <FiSettings />,
         },

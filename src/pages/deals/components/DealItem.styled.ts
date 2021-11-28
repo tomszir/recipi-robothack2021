@@ -1,5 +1,5 @@
 import { down } from "styled-breakpoints";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const ThumbnailWrapper = styled.div`
   position: relative;
@@ -46,7 +46,6 @@ export const Item = styled.div`
     }
     width: 100%;
     padding: 12px;
-    background-color: #fff;
   }
 
   .seller {
@@ -100,4 +99,13 @@ export const Item = styled.div`
       transform: scale(1.15);
     }
   }
+
+  ${({ theme }: { theme: any }) => css`
+    .price,
+    .brand {
+      color: ${theme.colors.text};
+    }
+    background-color: ${theme.colors.bg};
+    border: 1px solid ${theme.colors.borderColor};
+  `}
 `;
